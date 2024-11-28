@@ -1,0 +1,156 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; /* Remove qualquer margem padrão do body */
+    padding: 0; /* Remove qualquer padding padrão do body */
+  }
+  
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 15%;
+    background-color: black;
+    padding-inline: 16px;
+    padding-block: 16px;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Container para alinhar imagem e texto lado a lado */
+  .container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    padding: 0; /* Remove qualquer padding do container */
+    width: 100vw; /* Usa 100% da largura da janela de visualização */
+    height: 100vh; /* Usa 100% da altura da janela de visualização */
+    box-sizing: border-box;
+  }
+  
+  
+  /* Estilo para a imagem */
+  .imagem img {
+    width: 100vw;  /* A imagem agora ocupa 100% da largura da página */
+    height: 100%;  /* A altura da imagem é ajustada para ocupar toda a altura do container */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorção, mantendo a proporção */
+  }
+  
+  
+  /* Estilo para o texto */
+  .texto {
+    max-width: 1000px; /* Aumenta a largura máxima do texto para torná-lo mais longo */
+    width: 80%; /* Faz o texto ocupar 80% da largura da tela */
+    padding: 20px;  /* Adiciona um pouco de padding ao redor do texto */
+    position: absolute; /* Usando absolute para posicionar o texto de maneira independente */
+    top: 30%; /* Posiciona o texto no meio da tela */
+    left: 2%; /* Deixa 10% de espaço à esquerda */
+    transform: translateY(-50%); /* Ajusta para que o texto fique centralizado verticalmente */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+  }
+  
+  
+  .texto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .texto p {
+    font-size: 16px;
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+  }
+  
+  body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; /* Remove qualquer margem padrão do body */
+    padding: 0; /* Remove qualquer padding padrão do body */
+  }
+  
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 15%;
+    background-color: black;
+    padding-inline: 16px;
+    padding-block: 16px;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Container para alinhar imagem e texto lado a lado */
+  .container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    padding: 0; /* Remove qualquer padding do container */
+    width: 100vw; /* Usa 100% da largura da janela de visualização */
+    height: 100vh; /* Usa 100% da altura da janela de visualização */
+    box-sizing: border-box;
+  }
+  
+  
+  /* Estilo para a imagem */
+  .imagem img {
+    width: 100vw;  /* A imagem agora ocupa 100% da largura da página */
+    height: 100%;  /* A altura da imagem é ajustada para ocupar toda a altura do container */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorção, mantendo a proporção */
+  }
+  
+  
+  /* Estilo para o texto */
+  .texto {
+    max-width: 1000px; /* Aumenta a largura máxima do texto para torná-lo mais longo */
+    width: 80%; /* Faz o texto ocupar 80% da largura da tela */
+    padding: 20px;  /* Adiciona um pouco de padding ao redor do texto */
+    position: absolute; /* Usando absolute para posicionar o texto de maneira independente */
+    top: 30%; /* Posiciona o texto no meio da tela */
+    left: 2%; /* Deixa 10% de espaço à esquerda */
+    transform: translateY(-50%); /* Ajusta para que o texto fique centralizado verticalmente */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+  }
+  
+  
+  .texto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .texto p {
+    font-size: 16px;
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+  }
+  
+  
+  
